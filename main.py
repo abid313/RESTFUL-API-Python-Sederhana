@@ -83,8 +83,6 @@ class Video(Resource):
         db.session.commit()
         return result, 204
 
-   
-
 api.add_resource(Video, "/video/<int:video_id>")
 
 if __name__ == "__main__":
